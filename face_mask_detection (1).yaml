@@ -1,0 +1,12 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /content/drive/MyDrive/Datasets/DatasetMask # dataset root dir
+train: /content/drive/MyDrive/Datasets/DatasetMask/train/train/images/ # train images (relative to 'path')
+val: /content/drive/MyDrive/Datasets/DatasetMask/valid/valid/images/ # val images (relative to 'path')
+test:  # test images (optional)
+
+# number of classes
+nc: 3
+
+# class names
+#names: ['0', '1', '2']
+names: [ 'no_mask', 'mask','improper_mask']  # class names
